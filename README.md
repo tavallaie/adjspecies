@@ -71,7 +71,7 @@ procrastinating getting out of bed.
 Credits
 =======
 
-The [adjspecies](https://github.com/hipikat/adjspecies) module is written and maintained by [Adam Wright](http://hipikat.org)_,
+The [adjspecies](https://github.com/hipikat/adjspecies) module is written and maintained by [Adam Wright](http://hipikat.org),
 who plays a cheetah on Twitter under the guise of  [chipikat](https://twitter.com/chipikat), a Python
 developer called [pypikat](https://twitter.com/pypikat) and a human being named [hipikat](https://twitter.com/hipikat).
 after years [tavallaie](https://twitter.com/AliTavallaie) only updated this package on PYPI for python3.
