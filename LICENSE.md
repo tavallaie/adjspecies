@@ -1,7 +1,6 @@
-The BSD 2-Clause License
-========================
+# The BSD 2-Clause License
 
-Copyright © 2013, Adam Wright <adam@hipikat.org>
+Copyright © 2013, [Adam Wright](adam@hipikat.org)
 All rights reserved.
 
 Redistribution and use in source and binary forms, with or without
