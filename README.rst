@@ -2,7 +2,7 @@
 adjective/species
 =================
 
-The ``adjspecies`` Python module generates random names formed from
+The ``adjspecies3`` Python module generates random names formed from
 an animal and a descriptor.
 
 Installation
@@ -47,9 +47,9 @@ In Python code
 
 .. code:: python
 
-    >>> import adjspecies
-    >>> help(adjspecies.random_adjspecies)
-    Help on function random_adjspecies in module adjspecies:
+    >>> import adjspecies3
+    >>> help(adjspecies3.random_adjspecies)
+    Help on function random_adjspecies in module adjspecies3:
     
     random_adjspecies(sep='', maxlen=8, prevent_stutter=True)
         Return a random adjective/species, separated by `sep`. The keyword
@@ -84,7 +84,7 @@ Credits
 The `adjspecies` module is written and maintained by `Adam Wright`_,
 who plays a cheetah on Twitter under the guise of `@chipikat`_, a Python
 developer called `@pypikat`_ and a human being named `@hipikat`_.
-`@tavallaie`_ only updated this package by last commit.
+after years `@tavallaie`_ only updated this package on PYPI for python3.
 
 .. _Adam Wright: http://hipikat.org/
 .. _@chipikat: https://twitter.com/chipikat
