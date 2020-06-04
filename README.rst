@@ -10,7 +10,7 @@ Installation
 
 .. code:: bash
 
-    $ pip install -U adjspecies
+    $ pip install -U adjspecies3
 
 Usage
 =====
@@ -84,8 +84,10 @@ Credits
 The `adjspecies` module is written and maintained by `Adam Wright`_,
 who plays a cheetah on Twitter under the guise of `@chipikat`_, a Python
 developer called `@pypikat`_ and a human being named `@hipikat`_.
+`@tavallaie`_ only updated this package by last commit.
 
 .. _Adam Wright: http://hipikat.org/
 .. _@chipikat: https://twitter.com/chipikat
 .. _@pypikat: https://twitter.com/pypikat
 .. _@hipikat: https://twitter.com/hipikat
+.. _@tavallaie: https://twitter.com/AliTavallaie
