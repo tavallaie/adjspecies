@@ -1,19 +1,22 @@
-"""Setup script for adjspecies. Use `pip install .` in this directory."""
+"""Setup script for adjspecies3. Use `pip install .` in this directory."""
 
 from setuptools import setup
-import adjspecies
+import adjspecies3
 
+with open("README.md", "r") as fh:
+    long_description = fh.read()
 
 setup(
-    name='adjspecies',
-    version='0.1.3',
-    description=adjspecies.__doc__,
-    long_description=(open('README.rst').read()),
-    url='http://github.com/hipikat/adjspecies/',
+    name='adjspecies3',
+    version='0.1.4',
+    description=adjspecies3.__doc__,
+    long_description=long_description,
+    long_description_content_type="text/markdown",
+    url='http://github.com/tavallaie/adjspecies/',
     license='BSD 2-Clause',
-    author='Adam Wright',
-    author_email='adam@hipikat.org',
-    packages=['adjspecies'],
+    author='Ali Tavallaie',
+    author_email='a.tavallaie@gmail.com',
+    packages=['adjspecies3'],
     include_package_data=True,
     entry_points={
         'console_scripts': [
@@ -21,15 +24,15 @@ setup(
         ],
     },
     classifiers=[
-        'Development Status :: 4 - Beta',
+        'Development Status :: 5 - Beta',
         'Environment :: Console',
         'Intended Audience :: Developers',
         'License :: OSI Approved :: BSD License',
         'Natural Language :: English',
         'Operating System :: OS Independent',
         'Programming Language :: Python',
-        'Programming Language :: Python :: 2',
-        'Programming Language :: Python :: 2.7',
+        'Programming Language :: Python :: 3',
+        'Programming Language :: Python :: 3.7',
         'Topic :: Software Development :: Libraries :: Python Modules',
         'Topic :: Utilities',
     ],
