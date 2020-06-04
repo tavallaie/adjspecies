@@ -1,4 +1,3 @@
-=================
 adjective/species
 =================
 
@@ -8,8 +7,6 @@ an animal and a descriptor.
 Installation
 ============
 
-.. code:: bash
-
     $ pip install -U adjspecies3
 
 Usage
@@ -17,8 +14,6 @@ Usage
 
 From the command line
 ---------------------
-
-.. code:: bash
 
     $ adjspecies --help
     usage: adjspecies.py [-h] [--maxlen MAXLEN] [--sep SEPARATOR] [--count COUNT]
@@ -35,17 +30,15 @@ From the command line
       --count COUNT      Number of adjective/species combinations to print.
       --prevent-stutter  Prevent the same letter from appearing on an
                          adjective/species boundary. (default=True)
-
+    
     $ python adjspecies.py --count 4
     sillyfox
     redpig
     pinkdoge
     lynxpaw
-    
+
 In Python code
 --------------
-
-.. code:: python
 
     >>> import adjspecies3
     >>> help(adjspecies3.random_adjspecies)
@@ -63,31 +56,25 @@ In Python code
 About
 =====
 
-While writing a deployment system targetting DigitalOcean_ Droplets,
+While writing a deployment system targetting [DigitalOcean](https://www.digitalocean.com) Droplets,
 the author found the largest bottleneck was finding names for the transient
 test servers.
 
 The adjective/species contrivance comes from the furry culture in general
-and more directly from the site `[adjective][species]`_. It provides a
+and more directly from the site [ adjective species ](http://adjectivespecies.com). It provides a
 wide namespace of easy-to-remember randomness.
 
 Everything up until the initial commit was an exercise in yak shaving and
 procrastinating getting out of bed.
 
-.. _DigitalOcean: https://www.digitalocean.com/
-.. _[adjective][species]: http://adjectivespecies.com/
-
 
 Credits
 =======
 
-The `adjspecies` module is written and maintained by `Adam Wright`_,
-who plays a cheetah on Twitter under the guise of `@chipikat`_, a Python
-developer called `@pypikat`_ and a human being named `@hipikat`_.
-after years `@tavallaie`_ only updated this package on PYPI for python3.
+The [adjspecies](https://github.com/hipikat/adjspecies) module is written and maintained by [Adam Wright](http://hipikat.org)_,
+who plays a cheetah on Twitter under the guise of  [chipikat](https://twitter.com/chipikat), a Python
+developer called [pypikat](https://twitter.com/pypikat) and a human being named [hipikat](https://twitter.com/hipikat).
+after years [tavallaie](https://twitter.com/AliTavallaie) only updated this package on PYPI for python3.
 
-.. _Adam Wright: http://hipikat.org/
-.. _@chipikat: https://twitter.com/chipikat
-.. _@pypikat: https://twitter.com/pypikat
-.. _@hipikat: https://twitter.com/hipikat
-.. _@tavallaie: https://twitter.com/AliTavallaie
+
+
